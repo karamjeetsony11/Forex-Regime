@@ -1,0 +1,26 @@
+# ── Python ────────────────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── Environment ───────────────────────────────────────────────────────────
+.env
+
+# ── Data & logs (training artifacts — not needed for deployment) ──────────
+/data/
+logs/
+reports/
+notebooks/
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
